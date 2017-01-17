@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 55.0.2883 (Windows 8.1 0.0.0)" package="models" timestamp="2017-01-17T21:12:24" id="0" hostname="ABBES-PC" tests="1" errors="0" failures="0" time="0.004">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"/>
+  </properties>
+  <testcase name="Home should have default data" time="0.004" classname="Chrome_55_0_2883_(Windows_8_1_0_0_0).models.Home"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
