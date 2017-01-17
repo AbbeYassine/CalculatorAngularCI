@@ -17,11 +17,35 @@ import { MockBackend } from '@angular/http/testing';
 import { AppState } from '../app.service';
 import { HomeComponent } from './home.component';
 
+import {Calculator} from './services/calculator.service';
+
 
 describe(`Home`, () => {
-
-  it('should have default data', () => {
-    expect(12).toEqual(12);
-  });
+  beforeEach(() => TestBed.configureTestingModule({
+    providers: [
+      Calculator
+    ]
+  }));
+  
+  it('sum testing' , inject([Calculator],(calculator :Calculator) => {
+    const a =3;
+    const b = 4;
+    expect(calculator.additionner(a,b)).toEqual(7);
+  }));
+  it('mul testing' , inject([Calculator],(calculator :Calculator) => {
+    const a =3;
+    const b = 4;
+    expect(calculator.multiplication(a,b)).toEqual(12);
+  }));
+  it('div testing' , inject([Calculator],(calculator :Calculator) => {
+    const a =16;
+    const b = 2;
+    expect(calculator.division(a,b)).toEqual(8);
+  }));
+  it('minus testing' , inject([Calculator],(calculator :Calculator) => {
+    const a =15;
+    const b = 3;
+    expect(calculator.minus(a,b)).toEqual(5);
+  }));
 
 });

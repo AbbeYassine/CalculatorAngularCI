@@ -1,3 +1,10 @@
 <div class="card-container">
   <h1 class="sample-content">Hello World</h1>
+
+  <input id="champ1" [(ngModel)]="val.a" value="0" name="champ1" />
+  <button type="button" (click)="add()">+</button>
+  <button type="button" (click)="mul()">*</button>
+  <button type="button" (click)="div()">/</button>
+  <button type="button" (click)="minus()">-</button>
+  <input id="champ2" [(ngModel)]="val.b" value="0" name="champ2" />
 </div>
