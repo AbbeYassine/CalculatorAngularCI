@@ -10,17 +10,21 @@ export class Calculator {
 
   public additionner(a:number, b:number):any {
     //TODO
+    return a+b;
   }
 
   public multiplication(a:number, b:number):any {
     //TODO
+    return a*b ;
   }
 
   public division(a:number, b:number):any {
     //TODO
+    return a/b ;
   }
 
   public minus(a:number, b:number):any {
     //TODO
+    return a-b;
   }
 }

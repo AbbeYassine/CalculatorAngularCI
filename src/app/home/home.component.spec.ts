@@ -45,11 +45,6 @@ describe(`Home`, () => {
   it('minus testing' , inject([Calculator],(calculator :Calculator) => {
     const a =15;
     const b = 3;
-    expect(calculator.minus(a,b)).toEqual(5);
+    expect(calculator.minus(a,b)).toEqual(12);
   }));
-  it('oussema testing' , inject([Calculator],(calculator :Calculator) => {
-
-    expect(true).toEqual(false);
-  }));
-
 });
