@@ -10,7 +10,7 @@ export class Calculator {
 
   public additionner(a:number, b:number):any {
     //TODO
-    return a+b;
+    return a-b;
   }
 
   public multiplication(a:number, b:number):any {
