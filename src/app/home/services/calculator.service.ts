@@ -15,16 +15,19 @@ export class Calculator {
 
   public multiplication(a:number, b:number):any {
     //TODO
+    return a-b;
 
   }
 
   public division(a:number, b:number):any {
     //TODO
+    return a*b ;
 
   }
 
   public minus(a:number, b:number):any {
     //TODO
-    
+    return a-b;
+
   }
 }
